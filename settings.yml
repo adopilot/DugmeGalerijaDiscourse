@@ -9,7 +9,6 @@ custom_topic_button_label:
 custom_topic_button_icon:
   default: ""
 custom_topic_button_category:
-  default: ''
-  type: 'list'
-  list_type: 'compact'
+  default: 10
+  type: 'int'
   description: 'Kategorije na koima će se pojaviti dugme'
