@@ -8,3 +8,8 @@ custom_topic_button_label:
   default: "Click Me"
 custom_topic_button_icon:
   default: ""
+custom_topic_button_category:
+  default: ''
+  type: 'list'
+  list_type: 'compact'
+  description: 'Kategorije na koima će se pojaviti dugme'
