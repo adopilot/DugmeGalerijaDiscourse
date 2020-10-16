@@ -32,7 +32,7 @@
     classNames: ["discourse-custom-topic-button"],
     dependentKeys: ["topic.id", "topic.title", "topic.slug", "topic.category_id"],
     displayed() {
-      return settings.custom_topic_button_enabled && settings.custom_topic_button_category == category_id
+      return settings.custom_topic_button_enabled && settings.custom_topic_button_category == this.get("topic.category_id")
     }
   });
 </script>
